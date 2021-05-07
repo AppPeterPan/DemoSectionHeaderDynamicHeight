@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A68629FA26452A840063FF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68629F926452A840063FF7E /* AppDelegate.swift */; };
 		A68629FC26452A840063FF7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68629FB26452A840063FF7E /* SceneDelegate.swift */; };
-		A68629FE26452A840063FF7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68629FD26452A840063FF7E /* ViewController.swift */; };
 		A6862A0126452A840063FF7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68629FF26452A840063FF7E /* Main.storyboard */; };
 		A6862A0326452A860063FF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6862A0226452A860063FF7E /* Assets.xcassets */; };
 		A6862A0626452A860063FF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6862A0426452A860063FF7E /* LaunchScreen.storyboard */; };
+		A6862A0E26452C800063FF7E /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862A0D26452C800063FF7E /* PostTableViewController.swift */; };
+		A6862A102645306C0063FF7E /* PostContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862A0F2645306C0063FF7E /* PostContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A68629F626452A840063FF7E /* DemoSectionHeaderDynamicHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSectionHeaderDynamicHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68629F926452A840063FF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A68629FB26452A840063FF7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A68629FD26452A840063FF7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6862A0026452A840063FF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6862A0226452A860063FF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6862A0526452A860063FF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6862A0726452A860063FF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6862A0D26452C800063FF7E /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
+		A6862A0F2645306C0063FF7E /* PostContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				A68629F926452A840063FF7E /* AppDelegate.swift */,
 				A68629FB26452A840063FF7E /* SceneDelegate.swift */,
-				A68629FD26452A840063FF7E /* ViewController.swift */,
 				A68629FF26452A840063FF7E /* Main.storyboard */,
+				A6862A0D26452C800063FF7E /* PostTableViewController.swift */,
+				A6862A0F2645306C0063FF7E /* PostContentView.swift */,
 				A6862A0226452A860063FF7E /* Assets.xcassets */,
 				A6862A0426452A860063FF7E /* LaunchScreen.storyboard */,
 				A6862A0726452A860063FF7E /* Info.plist */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A68629FE26452A840063FF7E /* ViewController.swift in Sources */,
+				A6862A102645306C0063FF7E /* PostContentView.swift in Sources */,
+				A6862A0E26452C800063FF7E /* PostTableViewController.swift in Sources */,
 				A68629FA26452A840063FF7E /* AppDelegate.swift in Sources */,
 				A68629FC26452A840063FF7E /* SceneDelegate.swift in Sources */,
 			);
